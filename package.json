@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/savelives/beta/issues"
   },
-  "homepage": "https://github.com/savelives/beta"
+  "homepage": "https://github.com/savelives/beta",
+  "dependencies": {
+    "express": "^4.0.0"
+  }
 }
