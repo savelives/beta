@@ -4,10 +4,10 @@ preferred_syntax = :sass
 
 http_path = ''
 
-css_dir = 'assets/css'
-sass_dir = 'assets/_sass'
-images_dir = 'assets/images'
-javascripts_dir = 'assets/js'
+css_dir = 'public/assets/css'
+sass_dir = 'public/assets/_sass'
+images_dir = 'public/assets/images'
+javascripts_dir = 'public/assets/js'
 
 relative_assets = false
 line_comments = true
