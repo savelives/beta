@@ -8,7 +8,7 @@ images_dir = 'public/assets/images'
 javascripts_dir = 'public/assets/js'
 
 relative_assets = false
-line_comments = true
+line_comments = false
 output_style = :compressed
 
 asset_cache_buster :none
