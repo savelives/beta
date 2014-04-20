@@ -2,6 +2,15 @@
   Helpers
 \*------------------------------------*/
 
+@import "compass/css3/box-sizing";
+
+*,
+*:after,
+*:before {
+  // Include box-sizing by Compass
+  @include box-sizing(border-box);
+}
+
 // Clearfix
 .cf {
   &:after,
