@@ -12,3 +12,20 @@ $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 .wrap {
   @include container(70em);
 }
+
+.logo {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
+}
