@@ -13,9 +13,13 @@ $grid-padding   : $gutter-width;  // grid-padding equal to gutters
   @include container(70em);
 }
 
+.pad {
+  padding: 50px 0;
+}
+
 .logo {
   font-size: 50px;
-  text-transform: uppercase;
+  font-style: italic;
   text-align: center;
 }
 
@@ -27,5 +31,14 @@ img {
 p {
   font-size: 22px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.5;
+  strong {
+    color: #000;
+  }
+}
+
+li {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 5px 0;
 }
