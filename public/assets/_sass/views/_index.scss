@@ -10,8 +10,10 @@ body {
 .main-content {
   .wrap {
     margin: 150px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    @media all and (max-width: 40em) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 }
 
