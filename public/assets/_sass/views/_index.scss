@@ -2,11 +2,16 @@
   Index
 \*------------------------------------*/
 
+html {
+  font-size: 16px;
+  @media all and (max-width: 40em) {
+    font-size: 12px;
+  }
+}
+
 body {
   background: $white;
   font-family: "proxima-nova-soft", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
 }
 
 .main-content {
@@ -22,6 +27,7 @@ body {
 }
 
 .title {
+  font-size: 40px;
   font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
