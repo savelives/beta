@@ -10,7 +10,11 @@ $gutter-width   : 1em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 
 .wrap {
-  @include container(70em);
+  @include container(60em);
+  @media all and (max-width: 40em) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .pad {
