@@ -1,0 +1,37 @@
+/*------------------------------------*\
+  Error
+\*------------------------------------*/
+
+.error {
+  background: $white;
+  color: $fresh-blood;
+}
+
+.main-404 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.go-back {
+  background: $fresh-blood;
+  color: $white;
+  padding: 5px 20px;
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
+  &:hover {
+    background: darken($fresh-blood, 10%);
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+  }
+}
