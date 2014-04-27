@@ -5,7 +5,10 @@ var router = express.Router();
 
 /* Home Page */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Home'});
+  res.render('index', {
+    pageclass: 'home',
+    title: 'Home'
+  });
 });
 
 module.exports = router;
